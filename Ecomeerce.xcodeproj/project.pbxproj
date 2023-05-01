@@ -1,0 +1,1070 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11A44F798F3509B3DCC2AE37 /* Pods_Ecomeerce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D2C2861835B04D53C3A4C6 /* Pods_Ecomeerce.framework */; };
+		3B4F58AC29FE52E500D58005 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4F58AB29FE52E500D58005 /* LoginViewModel.swift */; };
+		3B4F58AF29FE547000D58005 /* status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4F58AE29FE547000D58005 /* status.swift */; };
+		3B4F58C129FE5F1400D58005 /* HomeControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4F58C029FE5F1400D58005 /* HomeControllerTableViewController.swift */; };
+		3B4F58C829FE5F6900D58005 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4F58C629FE5F6900D58005 /* HomeViewCell.swift */; };
+		3B4F58C929FE5F6900D58005 /* HomeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B4F58C729FE5F6900D58005 /* HomeViewCell.xib */; };
+		3B54A2E229FE6E0C0029D25D /* LoginViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54A2E029FE6E0C0029D25D /* LoginViewViewController.swift */; };
+		3B54A2E329FE6E0C0029D25D /* LoginViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B54A2E129FE6E0C0029D25D /* LoginViewViewController.xib */; };
+		3B54A2E529FE73260029D25D /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54A2E429FE73260029D25D /* MainTabBarController.swift */; };
+		3B54A2EB29FE75760029D25D /* CartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54A2EA29FE75760029D25D /* CartTableViewController.swift */; };
+		3B54A31129FE809E0029D25D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54A31029FE809E0029D25D /* HomeViewModel.swift */; };
+		3B54A31329FE81800029D25D /* HomeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54A31229FE81800029D25D /* HomeCard.swift */; };
+		3B54A31A29FE8E3B0029D25D /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54A31829FE8E3B0029D25D /* ProfileController.swift */; };
+		3B54A31B29FE8E3B0029D25D /* ProfileController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B54A31929FE8E3B0029D25D /* ProfileController.xib */; };
+		3B54A32229FE97FF0029D25D /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54A32029FE97FF0029D25D /* ProductViewController.swift */; };
+		3B54A32329FE97FF0029D25D /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B54A32129FE97FF0029D25D /* ProductViewController.xib */; };
+		3B54A32529FEA0D20029D25D /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54A32429FEA0D20029D25D /* ProductViewModel.swift */; };
+		3B54A32829FEAB9D0029D25D /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54A32629FEAB9D0029D25D /* CartTableViewCell.swift */; };
+		3B54A32929FEAB9D0029D25D /* CartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B54A32729FEAB9D0029D25D /* CartTableViewCell.xib */; };
+		3B54A32B29FEAC1C0029D25D /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54A32A29FEAC1C0029D25D /* CartViewModel.swift */; };
+		3B54A32D29FEADF20029D25D /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54A32C29FEADF20029D25D /* CartItem.swift */; };
+		3B59E6E929FFE055008F1338 /* Order+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59E6E129FFE055008F1338 /* Order+CoreDataClass.swift */; };
+		3B59E6EA29FFE055008F1338 /* Order+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59E6E229FFE055008F1338 /* Order+CoreDataProperties.swift */; };
+		3B59E6EB29FFE055008F1338 /* Cart+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59E6E329FFE055008F1338 /* Cart+CoreDataClass.swift */; };
+		3B59E6EC29FFE055008F1338 /* Cart+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59E6E429FFE055008F1338 /* Cart+CoreDataProperties.swift */; };
+		3B59E6ED29FFE055008F1338 /* Product+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59E6E529FFE055008F1338 /* Product+CoreDataClass.swift */; };
+		3B59E6EE29FFE055008F1338 /* Product+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59E6E629FFE055008F1338 /* Product+CoreDataProperties.swift */; };
+		3B59E6EF29FFE055008F1338 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59E6E729FFE055008F1338 /* User+CoreDataClass.swift */; };
+		3B59E6F029FFE055008F1338 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59E6E829FFE055008F1338 /* User+CoreDataProperties.swift */; };
+		3B59E6F22A000804008F1338 /* OrderStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59E6F12A000804008F1338 /* OrderStatus.swift */; };
+		3BD51AF629FE426700694F63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD51AF529FE426700694F63 /* AppDelegate.swift */; };
+		3BD51AF829FE426700694F63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD51AF729FE426700694F63 /* SceneDelegate.swift */; };
+		3BD51B0029FE426700694F63 /* Ecomeerce.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BD51AFE29FE426700694F63 /* Ecomeerce.xcdatamodeld */; };
+		3BD51B0229FE426900694F63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD51B0129FE426900694F63 /* Assets.xcassets */; };
+		3BD51B0529FE426900694F63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD51B0329FE426900694F63 /* LaunchScreen.storyboard */; };
+		3BD51B1029FE426900694F63 /* EcomeerceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD51B0F29FE426900694F63 /* EcomeerceTests.swift */; };
+		3BD51B1A29FE426900694F63 /* EcomeerceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD51B1929FE426900694F63 /* EcomeerceUITests.swift */; };
+		3BD51B1C29FE426900694F63 /* EcomeerceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD51B1B29FE426900694F63 /* EcomeerceUITestsLaunchTests.swift */; };
+		3BD9E76129FEC5A800F81C18 /* CartAddStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD9E76029FEC5A700F81C18 /* CartAddStatus.swift */; };
+		3BD9E76729FF6AE300F81C18 /* ProductImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD9E76629FF6AE300F81C18 /* ProductImageCell.swift */; };
+		3BD9E76A29FF7C8F00F81C18 /* Utilites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD9E76929FF7C8F00F81C18 /* Utilites.swift */; };
+		3BD9E77129FF7F5400F81C18 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD9E76F29FF7F5400F81C18 /* SignUpController.swift */; };
+		3BD9E77229FF7F5400F81C18 /* SignUpController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BD9E77029FF7F5400F81C18 /* SignUpController.xib */; };
+		3BD9E77429FF80A300F81C18 /* SignUpStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD9E77329FF80A300F81C18 /* SignUpStatus.swift */; };
+		3BD9E77629FF810E00F81C18 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD9E77529FF810E00F81C18 /* SignUpViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BD51B0C29FE426900694F63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BD51AEA29FE426700694F63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BD51AF129FE426700694F63;
+			remoteInfo = Ecomeerce;
+		};
+		3BD51B1629FE426900694F63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BD51AEA29FE426700694F63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BD51AF129FE426700694F63;
+			remoteInfo = Ecomeerce;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A72777E1887E914616233B /* Pods-Ecomeerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecomeerce.release.xcconfig"; path = "Target Support Files/Pods-Ecomeerce/Pods-Ecomeerce.release.xcconfig"; sourceTree = "<group>"; };
+		3B4F58AB29FE52E500D58005 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		3B4F58AE29FE547000D58005 /* status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = status.swift; sourceTree = "<group>"; };
+		3B4F58C029FE5F1400D58005 /* HomeControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeControllerTableViewController.swift; sourceTree = "<group>"; };
+		3B4F58C629FE5F6900D58005 /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		3B4F58C729FE5F6900D58005 /* HomeViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewCell.xib; sourceTree = "<group>"; };
+		3B54A2E029FE6E0C0029D25D /* LoginViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewController.swift; sourceTree = "<group>"; };
+		3B54A2E129FE6E0C0029D25D /* LoginViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewViewController.xib; sourceTree = "<group>"; };
+		3B54A2E429FE73260029D25D /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		3B54A2EA29FE75760029D25D /* CartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewController.swift; sourceTree = "<group>"; };
+		3B54A31029FE809E0029D25D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		3B54A31229FE81800029D25D /* HomeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCard.swift; sourceTree = "<group>"; };
+		3B54A31829FE8E3B0029D25D /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		3B54A31929FE8E3B0029D25D /* ProfileController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileController.xib; sourceTree = "<group>"; };
+		3B54A32029FE97FF0029D25D /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		3B54A32129FE97FF0029D25D /* ProductViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductViewController.xib; sourceTree = "<group>"; };
+		3B54A32429FEA0D20029D25D /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		3B54A32629FEAB9D0029D25D /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		3B54A32729FEAB9D0029D25D /* CartTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartTableViewCell.xib; sourceTree = "<group>"; };
+		3B54A32A29FEAC1C0029D25D /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		3B54A32C29FEADF20029D25D /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		3B59E6E129FFE055008F1338 /* Order+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Order+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3B59E6E229FFE055008F1338 /* Order+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Order+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3B59E6E329FFE055008F1338 /* Cart+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cart+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3B59E6E429FFE055008F1338 /* Cart+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cart+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3B59E6E529FFE055008F1338 /* Product+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3B59E6E629FFE055008F1338 /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3B59E6E729FFE055008F1338 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3B59E6E829FFE055008F1338 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3B59E6F12A000804008F1338 /* OrderStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderStatus.swift; sourceTree = "<group>"; };
+		3BD51AF229FE426700694F63 /* Ecomeerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ecomeerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD51AF529FE426700694F63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BD51AF729FE426700694F63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3BD51AFF29FE426700694F63 /* Ecomeerce.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ecomeerce.xcdatamodel; sourceTree = "<group>"; };
+		3BD51B0129FE426900694F63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BD51B0429FE426900694F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BD51B0629FE426900694F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BD51B0B29FE426900694F63 /* EcomeerceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcomeerceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD51B0F29FE426900694F63 /* EcomeerceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcomeerceTests.swift; sourceTree = "<group>"; };
+		3BD51B1529FE426900694F63 /* EcomeerceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcomeerceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD51B1929FE426900694F63 /* EcomeerceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcomeerceUITests.swift; sourceTree = "<group>"; };
+		3BD51B1B29FE426900694F63 /* EcomeerceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcomeerceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3BD9E76029FEC5A700F81C18 /* CartAddStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartAddStatus.swift; sourceTree = "<group>"; };
+		3BD9E76629FF6AE300F81C18 /* ProductImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductImageCell.swift; sourceTree = "<group>"; };
+		3BD9E76929FF7C8F00F81C18 /* Utilites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilites.swift; sourceTree = "<group>"; };
+		3BD9E76F29FF7F5400F81C18 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		3BD9E77029FF7F5400F81C18 /* SignUpController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpController.xib; sourceTree = "<group>"; };
+		3BD9E77329FF80A300F81C18 /* SignUpStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpStatus.swift; sourceTree = "<group>"; };
+		3BD9E77529FF810E00F81C18 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		80D2C2861835B04D53C3A4C6 /* Pods_Ecomeerce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ecomeerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F1B24F51D896FED7A8C5E4 /* Pods-Ecomeerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecomeerce.debug.xcconfig"; path = "Target Support Files/Pods-Ecomeerce/Pods-Ecomeerce.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BD51AEF29FE426700694F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A44F798F3509B3DCC2AE37 /* Pods_Ecomeerce.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD51B0829FE426900694F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD51B1229FE426900694F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E5CE9717904668B53FA00C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80D2C2861835B04D53C3A4C6 /* Pods_Ecomeerce.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B4F58A729FE4E2900D58005 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3B4F58AD29FE545F00D58005 /* Model */,
+				3B4F58AA29FE52C400D58005 /* ViewModel */,
+				3B4F58A829FE52B500D58005 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3B4F58A829FE52B500D58005 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B54A2E029FE6E0C0029D25D /* LoginViewViewController.swift */,
+				3B54A2E129FE6E0C0029D25D /* LoginViewViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B4F58AA29FE52C400D58005 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3B4F58AB29FE52E500D58005 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3B4F58AD29FE545F00D58005 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B4F58AE29FE547000D58005 /* status.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B4F58B029FE591300D58005 /* MainNavigator */ = {
+			isa = PBXGroup;
+			children = (
+				3B4F58B329FE5DC400D58005 /* ViewModel */,
+				3B4F58B229FE5DBF00D58005 /* Model */,
+				3B4F58B129FE5DB300D58005 /* View */,
+			);
+			path = MainNavigator;
+			sourceTree = "<group>";
+		};
+		3B4F58B129FE5DB300D58005 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B54A2E429FE73260029D25D /* MainTabBarController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B4F58B229FE5DBF00D58005 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B4F58B329FE5DC400D58005 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3B4F58BC29FE5E7300D58005 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3B4F58BF29FE5E8200D58005 /* View */,
+				3B4F58BE29FE5E7E00D58005 /* Model */,
+				3B4F58BD29FE5E7800D58005 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3B4F58BD29FE5E7800D58005 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3B54A31029FE809E0029D25D /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3B4F58BE29FE5E7E00D58005 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B54A31229FE81800029D25D /* HomeCard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B4F58BF29FE5E8200D58005 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B4F58C029FE5F1400D58005 /* HomeControllerTableViewController.swift */,
+				3B4F58C629FE5F6900D58005 /* HomeViewCell.swift */,
+				3B4F58C729FE5F6900D58005 /* HomeViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B54A2E629FE74F00029D25D /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				3B54A2E929FE75030029D25D /* Model */,
+				3B54A2E829FE74FD0029D25D /* ViewModel */,
+				3B54A2E729FE74F60029D25D /* View */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		3B54A2E729FE74F60029D25D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B54A2EA29FE75760029D25D /* CartTableViewController.swift */,
+				3B54A32629FEAB9D0029D25D /* CartTableViewCell.swift */,
+				3B54A32729FEAB9D0029D25D /* CartTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3B54A2E829FE74FD0029D25D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3B54A32A29FEAC1C0029D25D /* CartViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		3B54A2E929FE75030029D25D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B54A32C29FEADF20029D25D /* CartItem.swift */,
+				3B59E6F12A000804008F1338 /* OrderStatus.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3B54A31429FE8DE90029D25D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				3B54A31729FE8E190029D25D /* Model */,
+				3B54A31629FE8E130029D25D /* ViewModel */,
+				3B54A31529FE8E060029D25D /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3B54A31529FE8E060029D25D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B54A31829FE8E3B0029D25D /* ProfileController.swift */,
+				3B54A31929FE8E3B0029D25D /* ProfileController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B54A31629FE8E130029D25D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3B54A31729FE8E190029D25D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B54A31C29FE97C30029D25D /* ProductScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3B54A31F29FE97E10029D25D /* View */,
+				3B54A31E29FE97D80029D25D /* Model */,
+				3B54A31D29FE97D00029D25D /* ViewModel */,
+			);
+			path = ProductScreen;
+			sourceTree = "<group>";
+		};
+		3B54A31D29FE97D00029D25D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3B54A32429FEA0D20029D25D /* ProductViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3B54A31E29FE97D80029D25D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BD9E76029FEC5A700F81C18 /* CartAddStatus.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B54A31F29FE97E10029D25D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B54A32029FE97FF0029D25D /* ProductViewController.swift */,
+				3B54A32129FE97FF0029D25D /* ProductViewController.xib */,
+				3BD9E76629FF6AE300F81C18 /* ProductImageCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3BD51AE929FE426700694F63 = {
+			isa = PBXGroup;
+			children = (
+				3BD51AF429FE426700694F63 /* Ecomeerce */,
+				3BD51B0E29FE426900694F63 /* EcomeerceTests */,
+				3BD51B1829FE426900694F63 /* EcomeerceUITests */,
+				3BD51AF329FE426700694F63 /* Products */,
+				A4CA187541CAFCEFB8B2B6B3 /* Pods */,
+				1E5CE9717904668B53FA00C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3BD51AF329FE426700694F63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BD51AF229FE426700694F63 /* Ecomeerce.app */,
+				3BD51B0B29FE426900694F63 /* EcomeerceTests.xctest */,
+				3BD51B1529FE426900694F63 /* EcomeerceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BD51AF429FE426700694F63 /* Ecomeerce */ = {
+			isa = PBXGroup;
+			children = (
+				3BD9E76829FF7C7D00F81C18 /* Common */,
+				3BD51B2A29FE475900694F63 /* CoreDataModel */,
+				3BD51B2929FE42D900694F63 /* Delegate */,
+				3BD51B2829FE42C900694F63 /* Screen */,
+				3BD51B0129FE426900694F63 /* Assets.xcassets */,
+				3BD51B0629FE426900694F63 /* Info.plist */,
+				3BD51AFE29FE426700694F63 /* Ecomeerce.xcdatamodeld */,
+			);
+			path = Ecomeerce;
+			sourceTree = "<group>";
+		};
+		3BD51B0E29FE426900694F63 /* EcomeerceTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BD51B0F29FE426900694F63 /* EcomeerceTests.swift */,
+			);
+			path = EcomeerceTests;
+			sourceTree = "<group>";
+		};
+		3BD51B1829FE426900694F63 /* EcomeerceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BD51B1929FE426900694F63 /* EcomeerceUITests.swift */,
+				3BD51B1B29FE426900694F63 /* EcomeerceUITestsLaunchTests.swift */,
+			);
+			path = EcomeerceUITests;
+			sourceTree = "<group>";
+		};
+		3BD51B2829FE42C900694F63 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3BD9E76B29FF7F1B00F81C18 /* SignUp */,
+				3B54A31C29FE97C30029D25D /* ProductScreen */,
+				3B54A31429FE8DE90029D25D /* Profile */,
+				3B54A2E629FE74F00029D25D /* Cart */,
+				3B4F58BC29FE5E7300D58005 /* Home */,
+				3B4F58B029FE591300D58005 /* MainNavigator */,
+				3B4F58A729FE4E2900D58005 /* Login */,
+				3BD51B0329FE426900694F63 /* LaunchScreen.storyboard */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		3BD51B2929FE42D900694F63 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				3BD51AF529FE426700694F63 /* AppDelegate.swift */,
+				3BD51AF729FE426700694F63 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		3BD51B2A29FE475900694F63 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				3B59E6E129FFE055008F1338 /* Order+CoreDataClass.swift */,
+				3B59E6E229FFE055008F1338 /* Order+CoreDataProperties.swift */,
+				3B59E6E329FFE055008F1338 /* Cart+CoreDataClass.swift */,
+				3B59E6E429FFE055008F1338 /* Cart+CoreDataProperties.swift */,
+				3B59E6E529FFE055008F1338 /* Product+CoreDataClass.swift */,
+				3B59E6E629FFE055008F1338 /* Product+CoreDataProperties.swift */,
+				3B59E6E729FFE055008F1338 /* User+CoreDataClass.swift */,
+				3B59E6E829FFE055008F1338 /* User+CoreDataProperties.swift */,
+			);
+			path = CoreDataModel;
+			sourceTree = "<group>";
+		};
+		3BD9E76829FF7C7D00F81C18 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3BD9E76929FF7C8F00F81C18 /* Utilites.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3BD9E76B29FF7F1B00F81C18 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				3BD9E76E29FF7F3300F81C18 /* ViewModel */,
+				3BD9E76D29FF7F2D00F81C18 /* View */,
+				3BD9E76C29FF7F2600F81C18 /* Model */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		3BD9E76C29FF7F2600F81C18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BD9E77329FF80A300F81C18 /* SignUpStatus.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3BD9E76D29FF7F2D00F81C18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BD9E76F29FF7F5400F81C18 /* SignUpController.swift */,
+				3BD9E77029FF7F5400F81C18 /* SignUpController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3BD9E76E29FF7F3300F81C18 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3BD9E77529FF810E00F81C18 /* SignUpViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A4CA187541CAFCEFB8B2B6B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4F1B24F51D896FED7A8C5E4 /* Pods-Ecomeerce.debug.xcconfig */,
+				01A72777E1887E914616233B /* Pods-Ecomeerce.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BD51AF129FE426700694F63 /* Ecomeerce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD51B1F29FE426900694F63 /* Build configuration list for PBXNativeTarget "Ecomeerce" */;
+			buildPhases = (
+				4BBF27AB5661E7220CBBC049 /* [CP] Check Pods Manifest.lock */,
+				3BD51AEE29FE426700694F63 /* Sources */,
+				3BD51AEF29FE426700694F63 /* Frameworks */,
+				3BD51AF029FE426700694F63 /* Resources */,
+				F02F0BAD9B5C660079FAC364 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ecomeerce;
+			productName = Ecomeerce;
+			productReference = 3BD51AF229FE426700694F63 /* Ecomeerce.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BD51B0A29FE426900694F63 /* EcomeerceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD51B2229FE426900694F63 /* Build configuration list for PBXNativeTarget "EcomeerceTests" */;
+			buildPhases = (
+				3BD51B0729FE426900694F63 /* Sources */,
+				3BD51B0829FE426900694F63 /* Frameworks */,
+				3BD51B0929FE426900694F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BD51B0D29FE426900694F63 /* PBXTargetDependency */,
+			);
+			name = EcomeerceTests;
+			productName = EcomeerceTests;
+			productReference = 3BD51B0B29FE426900694F63 /* EcomeerceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BD51B1429FE426900694F63 /* EcomeerceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD51B2529FE426900694F63 /* Build configuration list for PBXNativeTarget "EcomeerceUITests" */;
+			buildPhases = (
+				3BD51B1129FE426900694F63 /* Sources */,
+				3BD51B1229FE426900694F63 /* Frameworks */,
+				3BD51B1329FE426900694F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BD51B1729FE426900694F63 /* PBXTargetDependency */,
+			);
+			name = EcomeerceUITests;
+			productName = EcomeerceUITests;
+			productReference = 3BD51B1529FE426900694F63 /* EcomeerceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BD51AEA29FE426700694F63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3BD51AF129FE426700694F63 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3BD51B0A29FE426900694F63 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3BD51AF129FE426700694F63;
+					};
+					3BD51B1429FE426900694F63 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3BD51AF129FE426700694F63;
+					};
+				};
+			};
+			buildConfigurationList = 3BD51AED29FE426700694F63 /* Build configuration list for PBXProject "Ecomeerce" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BD51AE929FE426700694F63;
+			productRefGroup = 3BD51AF329FE426700694F63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BD51AF129FE426700694F63 /* Ecomeerce */,
+				3BD51B0A29FE426900694F63 /* EcomeerceTests */,
+				3BD51B1429FE426900694F63 /* EcomeerceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BD51AF029FE426700694F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B54A31B29FE8E3B0029D25D /* ProfileController.xib in Resources */,
+				3BD51B0529FE426900694F63 /* LaunchScreen.storyboard in Resources */,
+				3B54A32929FEAB9D0029D25D /* CartTableViewCell.xib in Resources */,
+				3B54A2E329FE6E0C0029D25D /* LoginViewViewController.xib in Resources */,
+				3B4F58C929FE5F6900D58005 /* HomeViewCell.xib in Resources */,
+				3B54A32329FE97FF0029D25D /* ProductViewController.xib in Resources */,
+				3BD51B0229FE426900694F63 /* Assets.xcassets in Resources */,
+				3BD9E77229FF7F5400F81C18 /* SignUpController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD51B0929FE426900694F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD51B1329FE426900694F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BBF27AB5661E7220CBBC049 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ecomeerce-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F02F0BAD9B5C660079FAC364 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ecomeerce/Pods-Ecomeerce-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ecomeerce/Pods-Ecomeerce-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ecomeerce/Pods-Ecomeerce-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BD51AEE29FE426700694F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B54A32529FEA0D20029D25D /* ProductViewModel.swift in Sources */,
+				3BD9E76729FF6AE300F81C18 /* ProductImageCell.swift in Sources */,
+				3B54A31129FE809E0029D25D /* HomeViewModel.swift in Sources */,
+				3B59E6F029FFE055008F1338 /* User+CoreDataProperties.swift in Sources */,
+				3B4F58AF29FE547000D58005 /* status.swift in Sources */,
+				3BD9E77129FF7F5400F81C18 /* SignUpController.swift in Sources */,
+				3B59E6EC29FFE055008F1338 /* Cart+CoreDataProperties.swift in Sources */,
+				3B59E6EB29FFE055008F1338 /* Cart+CoreDataClass.swift in Sources */,
+				3B54A31329FE81800029D25D /* HomeCard.swift in Sources */,
+				3B59E6EF29FFE055008F1338 /* User+CoreDataClass.swift in Sources */,
+				3B54A2E229FE6E0C0029D25D /* LoginViewViewController.swift in Sources */,
+				3B59E6F22A000804008F1338 /* OrderStatus.swift in Sources */,
+				3B4F58C129FE5F1400D58005 /* HomeControllerTableViewController.swift in Sources */,
+				3B54A2EB29FE75760029D25D /* CartTableViewController.swift in Sources */,
+				3BD51AF629FE426700694F63 /* AppDelegate.swift in Sources */,
+				3B59E6EE29FFE055008F1338 /* Product+CoreDataProperties.swift in Sources */,
+				3B54A32829FEAB9D0029D25D /* CartTableViewCell.swift in Sources */,
+				3B54A32B29FEAC1C0029D25D /* CartViewModel.swift in Sources */,
+				3B59E6EA29FFE055008F1338 /* Order+CoreDataProperties.swift in Sources */,
+				3B54A32229FE97FF0029D25D /* ProductViewController.swift in Sources */,
+				3BD9E77629FF810E00F81C18 /* SignUpViewModel.swift in Sources */,
+				3B59E6E929FFE055008F1338 /* Order+CoreDataClass.swift in Sources */,
+				3BD9E77429FF80A300F81C18 /* SignUpStatus.swift in Sources */,
+				3B54A31A29FE8E3B0029D25D /* ProfileController.swift in Sources */,
+				3BD9E76A29FF7C8F00F81C18 /* Utilites.swift in Sources */,
+				3B4F58AC29FE52E500D58005 /* LoginViewModel.swift in Sources */,
+				3BD51B0029FE426700694F63 /* Ecomeerce.xcdatamodeld in Sources */,
+				3B4F58C829FE5F6900D58005 /* HomeViewCell.swift in Sources */,
+				3B59E6ED29FFE055008F1338 /* Product+CoreDataClass.swift in Sources */,
+				3BD51AF829FE426700694F63 /* SceneDelegate.swift in Sources */,
+				3B54A32D29FEADF20029D25D /* CartItem.swift in Sources */,
+				3BD9E76129FEC5A800F81C18 /* CartAddStatus.swift in Sources */,
+				3B54A2E529FE73260029D25D /* MainTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD51B0729FE426900694F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD51B1029FE426900694F63 /* EcomeerceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD51B1129FE426900694F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD51B1A29FE426900694F63 /* EcomeerceUITests.swift in Sources */,
+				3BD51B1C29FE426900694F63 /* EcomeerceUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BD51B0D29FE426900694F63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BD51AF129FE426700694F63 /* Ecomeerce */;
+			targetProxy = 3BD51B0C29FE426900694F63 /* PBXContainerItemProxy */;
+		};
+		3BD51B1729FE426900694F63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BD51AF129FE426700694F63 /* Ecomeerce */;
+			targetProxy = 3BD51B1629FE426900694F63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BD51B0329FE426900694F63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BD51B0429FE426900694F63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BD51B1D29FE426900694F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BD51B1E29FE426900694F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BD51B2029FE426900694F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4F1B24F51D896FED7A8C5E4 /* Pods-Ecomeerce.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ecomeerce/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.Ecomeerce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BD51B2129FE426900694F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01A72777E1887E914616233B /* Pods-Ecomeerce.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ecomeerce/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.Ecomeerce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3BD51B2329FE426900694F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.EcomeerceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ecomeerce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ecomeerce";
+			};
+			name = Debug;
+		};
+		3BD51B2429FE426900694F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.EcomeerceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ecomeerce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ecomeerce";
+			};
+			name = Release;
+		};
+		3BD51B2629FE426900694F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.EcomeerceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ecomeerce;
+			};
+			name = Debug;
+		};
+		3BD51B2729FE426900694F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.EcomeerceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ecomeerce;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BD51AED29FE426700694F63 /* Build configuration list for PBXProject "Ecomeerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD51B1D29FE426900694F63 /* Debug */,
+				3BD51B1E29FE426900694F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD51B1F29FE426900694F63 /* Build configuration list for PBXNativeTarget "Ecomeerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD51B2029FE426900694F63 /* Debug */,
+				3BD51B2129FE426900694F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD51B2229FE426900694F63 /* Build configuration list for PBXNativeTarget "EcomeerceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD51B2329FE426900694F63 /* Debug */,
+				3BD51B2429FE426900694F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD51B2529FE426900694F63 /* Build configuration list for PBXNativeTarget "EcomeerceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD51B2629FE426900694F63 /* Debug */,
+				3BD51B2729FE426900694F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3BD51AFE29FE426700694F63 /* Ecomeerce.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3BD51AFF29FE426700694F63 /* Ecomeerce.xcdatamodel */,
+			);
+			currentVersion = 3BD51AFF29FE426700694F63 /* Ecomeerce.xcdatamodel */;
+			path = Ecomeerce.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3BD51AEA29FE426700694F63 /* Project object */;
+}
